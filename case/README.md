@@ -18,6 +18,8 @@ Bagaimana bila jumlah data untuk suatu produk sangat sedikit (hanya ada sampel 3
 
 Kamu diharapkan menuliskan jawaban dalam file README.md berisi ~500 kata dan juga code bila diperlukan (pseudocode, SQL, atau Python).
 
+**Note : Proses pengerjaan studi kasus tidak menggunakan chatGPT**
+
 ## Asumsi Kasus 
 * Source Data : Data bersumber data E-Commerce yang diambil menggunakan metode scraper 
 * Pengambilan Data Setiap Hari dari E-Commerce, karena di setiap product E-Commerce kita hanya dapat melihat Total Penjualan setiap harinya, oleh karena itu untuk menentukan nilai penjualan harian kita butuh membandingkan total terjual yang kita ambil di H-1 dan total terjual yang kita ambil pada H (Total Penjualan H - Total Penjualan H-1) untuk mendapatkan data total penjualan setiap harinya. 
